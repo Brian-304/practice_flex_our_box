@@ -1,0 +1,66 @@
+.flex-container {
+    background-color: silver;
+    padding: 20px;
+    display: flexbox;
+    margin: 300px;
+    width: 800px;
+    
+}
+
+.top-nav {
+    height: 150px;
+    width: auto;
+    background-color: green;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+.side-nav {
+    height: 240px;
+    width: 150px;
+    background-color: blue;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.main {
+    flex-flow: wrap;
+    align-content: ;
+    justify-content: right;
+    height: 350px;
+    width: 500px;
+    background-color: red;
+    padding: 10px;
+}
+
+.sub-content {
+    display: inline-flex;
+    height: 100px;
+    width: 150px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 20;
+}
+
+#advertisement {
+    display: flex;
+    justify-content: ;
+    height: 100px;
+    width: 450px;
+    background-color: purple;
+    padding: 20px;
+    justify-content: left;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    vertical-align: top;
+}
+
+.row {
+    /* TODO - what should go here? */
+}
